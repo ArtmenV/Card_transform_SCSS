@@ -1,2 +1,25 @@
 $bg: #0ea1c9;
 $card: #2c3a47;
+
+body {
+  background-color: $bg;
+  font-family: "Montserrat", sans-serif;
+}
+
+.box {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 300px;
+  .text {
+    background-color: $card;
+    h3 {
+      font-size: 30px;
+      margin-bottom: 5px;
+      margin-top: 0;
+    }
+  }
+}
